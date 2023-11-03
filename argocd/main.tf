@@ -66,10 +66,10 @@ resource "helm_release" "argocd" {
 #    name  = "server.extraArgs[0]"
 #    value = "--insecure"
 #  }
-  set {
-    name  = "global.image.repository"
-    value = "argoproj/argocd"
-  }
+#  set {
+#    name  = "global.image.repository"
+#    value = "argoproj/argocd"
+#  }
   set {
     name  = "dex.enabled"
     value = "false"
