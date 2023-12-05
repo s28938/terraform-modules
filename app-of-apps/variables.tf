@@ -14,7 +14,7 @@ variable "destination_server" {
 
 variable "destination_namespace" {
   type    = string
-  default = "platform-dev"
+  default = "pjatk-dev"
 }
 
 variable "argocd_project" {
